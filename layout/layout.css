@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex: 1;
+}
+
+main > article{
+    flex: 1;
+    order: 1;
+}
+
+main > nav,
+main > aside{
+    flex: 0 0 20vw;
+}
+
+main > nav{
+    background-color: #D7E8D4;
+    order: 3;
+}
+
+main > aside{
+    background-color: beige;
+    order: 2;
+}
+
+header, footer{
+    background-color: yellowgreen;
+    height: 20vh;
+}
+
+header, footer, article, nav, aside{
+    padding: 1em;
+}
+
+/*
+bu web site üzeyir yarız tarafından yazıldı
+this website was written by uzeyir yariz
+*/
